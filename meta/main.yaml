@@ -10,11 +10,7 @@ galaxy_info:
   min_ansible_version: 2.2
 
   platforms:
-    - name: RHEL
-      versions:
-        - 7
-        - 8
-    - name: CentOS
+    - name: EL
       versions:
         - 7
         - 8
@@ -23,14 +19,14 @@ galaxy_info:
         - 31
     - name: Ubuntu
       versions:
-        - 18.04
+        - bionic
     - name: Amazon
       versions:
-        - 2
+        - "2017.12"
     - name: Debian
       versions:
-        - 10
-        - 9
+        - buster
+        - stretch
 
   galaxy_tags:
     - folding
